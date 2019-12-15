@@ -1,0 +1,1 @@
+9.44917,40,6,Blanchardstown,13:04:16,9.14082,40,6,Blanchardstown,13:04:24,10.0023,38,7,Blanchardstown,13:04:32,8.21671,38,7,Blanchardstown,13:04:39,8.48695,38,6,Blanchardstown,13:04:47,10.0581,36,6,Blanchardstown,13:04:54,8.7343,35,7,Blanchardstown,13:05:02,8.61224,36,7,Blanchardstown,13:05:10,8.6602,37,6,Blanchardstown,13:05:17
