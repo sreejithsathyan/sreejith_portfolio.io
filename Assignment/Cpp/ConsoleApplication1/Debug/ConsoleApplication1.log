@@ -1,4 +1,0 @@
-﻿  ConsoleApplication1.cpp
-D:\software_engineering\assignment2\ConsoleApplication1\ConsoleApplication1.cpp(58,27): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
-D:\software_engineering\assignment2\ConsoleApplication1\ConsoleApplication1.cpp(59,28): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
-  ConsoleApplication1.vcxproj -> D:\software_engineering\assignment2\ConsoleApplication1\Debug\ConsoleApplication1.exe

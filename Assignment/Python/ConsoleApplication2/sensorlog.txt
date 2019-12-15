@@ -1,0 +1,1 @@
+8.79654, 36, 8, Blanchardstown, Sun Dec 15 20:55:49 2019,9.99661, 40, 6, Blanchardstown, Sun Dec 15 20:55:57 2019,9.88328, 35, 7, Blanchardstown, Sun Dec 15 20:56:05 2019,9.13139, 34, 7, Blanchardstown, Sun Dec 15 20:56:13 2019,8.13552, 36, 7, Blanchardstown, Sun Dec 15 20:56:20 2019,9.41893, 39, 7, Blanchardstown, Sun Dec 15 20:56:28 2019,

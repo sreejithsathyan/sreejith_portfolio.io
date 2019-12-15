@@ -74,7 +74,7 @@ void Weather::Process()
 
 // write data to sesorlog.txt 
 	std::ofstream out("sensorlog.txt", std::ios_base::app);
-	out << Temperature_average << ", " << Humidity_average << ", " << Windspeed_average << ", " << Location << ", " << Time <<","<<"\n";
+	out << Temperature_average << ", " << Humidity_average << ", " << Windspeed_average << ", " << Location << ", " << Time <<",";
 
 // print data on console
 	cout << "\n" << "Processing Weather Data....." << "\n\n";
