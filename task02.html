@@ -31,52 +31,39 @@
 
 
 <div dir="ltr" style="text-align: left;" trbidi="on">
-<h2 id="yui_3_17_2_1_1576318291193_23" style="background-color: white; font-family: &quot;open sans&quot;, sans-serif; font-size: 28px; font-weight: 400; line-height: 40px; margin: 0px 0px 10px;">
-<span style="color: #0b5394;">
-Event Driven Programming Task</span></h2>
+<h2 style="text-align: left;">
+</h2>
+<h2 id="yui_3_17_2_1_1576326315456_31" style="background-color: white; font-family: &quot;Open Sans&quot;, sans-serif; font-size: 28px; font-weight: 400 !important; line-height: 40px; margin: 0px 0px 10px; text-rendering: optimizelegibility;">
+<span style="color: #0b5394;">NodeJS/JavaScript Task</span></h2>
 <div>
-Implement an event-based IoT node solution in this task. Modelling the IoT node as a finite state machine. The node has three states: Processing, Sensing, Idle. The node is moving from Idle to some event's sensing. As a clock, the node switches from sensing to processing once the data is collected and from processing to idle when the data is processed.<br />
-<br />
-<h3 style="text-align: left;">
-<span style="color: #0b5394;">UML State Diagram</span></h3>
+<div>
+<span style="font-family: Verdana, sans-serif;"><span style="color: #222222;"><span style="background-color: white; font-size: 14px;">Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.&nbsp;</span></span><span style="background-color: white; color: #222222; font-size: 14px;">In this task, we write a script for creating a JSON server to serve JSON data from a txt file and host data on localhost.</span></span></div>
 </div>
+<div>
+<span style="background-color: white; color: #222222; font-family: &quot;arial&quot; , sans-serif; font-size: 14px;"><br /></span></div>
+<h4 style="text-align: left;">
+<span style="background-color: white; color: #3d85c6; font-family: &quot;arial&quot; , sans-serif; font-size: 14px;">Reading data from txt file</span></h4>
+<div>
+<span style="background-color: white; font-family: Verdana, sans-serif; font-size: 14px;">raw data read from sensorlog.txt is stored in array and loop through the data. and push to a new JSON array and assign appropriate values.</span></div>
+<div>
+<span style="background-color: white; color: #3d85c6; font-family: &quot;arial&quot; , sans-serif; font-size: 14px;"><br /></span></div>
 <div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-RnWVwD6mG2I/XfS6P6WR36I/AAAAAAAAq4k/aaI68JxuvMwr1MJwU8_iqtYJ0NXoKgWmwCLcBGAsYHQ/s1600/fsm.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="472" data-original-width="681" src="https://1.bp.blogspot.com/-RnWVwD6mG2I/XfS6P6WR36I/AAAAAAAAq4k/aaI68JxuvMwr1MJwU8_iqtYJ0NXoKgWmwCLcBGAsYHQ/s1600/fsm.jpg" /></a></div>
+<a href="https://1.bp.blogspot.com/-gQ0mD6-w1n4/XfTaVttUVcI/AAAAAAAAq48/VelIwdxUL0MPAHj8bnUFM7bEfJBeAsWAQCLcBGAsYHQ/s1600/Capture.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="268" data-original-width="573" height="297" src="https://1.bp.blogspot.com/-gQ0mD6-w1n4/XfTaVttUVcI/AAAAAAAAq48/VelIwdxUL0MPAHj8bnUFM7bEfJBeAsWAQCLcBGAsYHQ/s640/Capture.PNG" width="640" /></a></div>
 <div>
-<div style="text-align: left;">
-In this task, there are three nodes, Sensing, Processing, Ideal.&nbsp;</div>
+<span style="background-color: white; color: #222222; font-family: &quot;arial&quot; , sans-serif; font-size: 14px;"><br /></span></div>
 <h4 style="text-align: left;">
-<span style="color: #3d85c6;">Sensing</span></h4>
+File Reading in Javascript</h4>
 <div>
-A set of weather sensors temperature, humidity and wind, which collect data for 1 minute and stored into a data structure array, values is stimulated using random value generator in c++</div>
+ReadFile function is used for reading sesor.log file from the directory, it stores raw data into a variable (readings) and passes in call back function</div>
 <h4 style="text-align: left;">
-<span style="color: #3d85c6;">Processing</span></h4>
-<div>
-Weather data stored in array is pass to processing function, which summation all the values independently and calculate the average of temperature, humidity, wind. the result includes time and location also is displayed on the console and write as a sensor log file&nbsp;&nbsp;</div>
-<h4 style="text-align: left;">
-<span style="color: #3d85c6;">Ideal</span></h4>
-<div>
-The ideal state is an intermediate state between processing to sensing which just delay for sometime after one iteration</div>
-<h3 style="text-align: left;">
-<span style="color: #0b5394;">Class Diagram based on the state pattern</span></h3>
-</div>
-<h3 style="clear: both; text-align: left;">
-<span style="background-color: white; color: #333333; font-family: &quot;century gothic&quot; , &quot;arial&quot; , &quot;helvetica&quot; , sans-serif; font-size: 14px;">&nbsp;<div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-pg1ify7ABfU/XfS7nQwLk3I/AAAAAAAAq4w/5y88tyEuB0IWytq3UN5Sr3P1B6SXIhfkACLcBGAsYHQ/s1600/uml_class_digram.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="381" data-original-width="571" src="https://1.bp.blogspot.com/-pg1ify7ABfU/XfS7nQwLk3I/AAAAAAAAq4w/5y88tyEuB0IWytq3UN5Sr3P1B6SXIhfkACLcBGAsYHQ/s1600/uml_class_digram.jpg" /></a></div>
-</span></h3>
 <div class="separator" style="clear: both; text-align: center;">
-<br /></div>
+<a href="https://1.bp.blogspot.com/-BpKK-2wVW_8/XfTanuH3R-I/AAAAAAAAq5E/BxfJwkz27N8HThbS7k_IYzN3cEel_Z9cgCLcBGAsYHQ/s1600/ss.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="230" data-original-width="646" height="225" src="https://1.bp.blogspot.com/-BpKK-2wVW_8/XfTanuH3R-I/AAAAAAAAq5E/BxfJwkz27N8HThbS7k_IYzN3cEel_Z9cgCLcBGAsYHQ/s640/ss.PNG" width="640" /></a></div>
+</h4>
 <div>
-<h3 style="text-align: left;">
-<span style="color: #0b5394;">GitHub Repository</span></h3>
+<h4 style="text-align: left;">
+Github Link</h4>
+<a href="https://github.com/sreejithsathyan/sreejithsathyan.github.io" target="_blank">Click Here for view code</a></div>
 </div>
-<div>
-<span style="color: #0b5394;">sreejnsd.<a href="https://github.com/sreejithsathyan" target="_blank">io</a></span></div>
-</div>
-
-
-
-
 
 
 
