@@ -1,0 +1,4 @@
+﻿  StateMachine.cpp
+C:\Users\Sreejith\Git\sreejithsathyan.github.io\Assignment\Cpp\StateMachine\StateMachine.cpp(79,27): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+C:\Users\Sreejith\Git\sreejithsathyan.github.io\Assignment\Cpp\StateMachine\StateMachine.cpp(80,28): warning C4244: '=': conversion from 'long' to 'float', possible loss of data
+  StateMachine.vcxproj -> C:\Users\Sreejith\Git\sreejithsathyan.github.io\Assignment\Cpp\StateMachine\Debug\StateMachine.exe

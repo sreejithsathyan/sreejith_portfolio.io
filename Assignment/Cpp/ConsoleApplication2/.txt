@@ -1,3 +1,0 @@
-9.692, 32, 6, Blanchardstown, Sat Dec 14 00:10:54 2019
-8.1782, 39, 7, Blanchardstown, Sat Dec 14 00:11:01 2019
-8.31964, 36, 7, Blanchardstown, Sat Dec 14 00:11:09 2019
