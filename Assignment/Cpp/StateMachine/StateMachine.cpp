@@ -123,10 +123,5 @@ int main()
 		case ST_Processing:
 			myObj.Process();
 		}
-		// Create an object of Weather
-		//Weather myObj;
-		/*myObj.Sensor();
-		myObj.Process();
-		myObj.Idel();*/
 	}
 }
