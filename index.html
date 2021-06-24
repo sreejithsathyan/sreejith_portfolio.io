@@ -25,6 +25,29 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
+		.............................
+		<script type="text/javascript">
+    /** This section is only needed once per page if manually copying **/
+    if (typeof MauticSDKLoaded == 'undefined') {
+        var MauticSDKLoaded = true;
+        var head            = document.getElementsByTagName('head')[0];
+        var script          = document.createElement('script');
+        script.type         = 'text/javascript';
+        script.src          = 'https://mautic.energygroup.ie/media/js/mautic-form.js';
+        script.onload       = function() {
+            MauticSDK.onLoad();
+        };
+        head.appendChild(script);
+        var MauticDomain = 'https://mautic.energygroup.ie';
+        var MauticLang   = {
+            'submittingMessage': "Please wait..."
+        }
+    }else if (typeof MauticSDK != 'undefined') {
+        MauticSDK.onLoad();
+    }
+</script>
+
+		...........................
 
 		<!-- Header -->
 			<header id="header">
@@ -113,7 +136,6 @@
 				<!-- Three -->
 					<section id="three">
 						<h2>Get In Touch</h2>
-						<script type="text/javascript" src="//mautic.energygroup.ie/form/generate.js?id=42"></script>
 						<p>Feel free to contact, just ping me.</p>
 						<div class="row">
 							<div class="col-8 col-12-small">
